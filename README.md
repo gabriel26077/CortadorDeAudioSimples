@@ -16,7 +16,7 @@ crie uma venv com
 
 ```bash
 
-python -m venv minha_venv
+python -m venv venv
 
 ```
 
