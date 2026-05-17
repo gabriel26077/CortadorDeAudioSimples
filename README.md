@@ -1,57 +1,48 @@
-## Baixar
 
-Necessário ter o git instalado na sua máquina, caso contrário baixe o projeto como um arquivo .zip no canto superior direito do github, descompacte e pule este passo.
+## Download
 
-Entre em uma pasta qualquer, abra o terminal dentro dela e digite:
+You need to have Git installed on your machine. If you don't, you can download the project as a `.zip` file from the top-right corner on GitHub, extract it, and skip this step.
+
+Navigate to any folder, open the terminal inside it, and run:
 
 ```bash
-
-git clone https://github.com/gabriel26077/CortadorDeAudioSimples
+git clone [https://github.com/gabriel26077/CortadorDeAudioSimples](https://github.com/gabriel26077/CortadorDeAudioSimples)
 
 ```
 
-## Instalando dependencias
+## Installing Dependencies
 
-crie uma venv com
+Create a virtual environment (venv) with:
 
 ```bash
-
 python -m venv venv
 
 ```
 
-ative a venv (windows)_
+Activate the venv (Windows):
 
 ```bash
-
 .\venv\Scripts\activate
 
 ```
 
-
-ative a venv (linux)
+Activate the venv (Linux/macOS):
 
 ```bash
-
 source venv/bin/activate
 
 ```
 
-
-instale as depêndencias
+Install the dependencies:
 
 ```bash
-
 pip install -r requirements.txt
 
 ```
 
-
-## Rodando o projeto
-
+## Running the Project
 
 ```bash
-
 python cortador.py
 
 ```
